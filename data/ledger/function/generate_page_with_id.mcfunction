@@ -1,0 +1,3 @@
+$data modify storage ledger:store pages append value {raw:'[{"extra":[{"text": "Warp\\n\\n","color":"blue","bold":true,"clickEvent":{"action": "run_command", "value": "/trigger ledger.trigger_tp add $(next_page_id)"}},{"text": "Erase entry","color":"red","bold":true,"clickEvent":{"action": "run_command", "value": "/trigger ledger.trigger_remove add $(next_page_id)"}}], "text": "$(runeString)\\n\\nX: $(x)\\nY: $(y)\\nZ: $(z)\\n\\n\\n\\n\\n\\n"}]'}
+
+$data modify storage ledger:store pagesIds append value {id: $(next_page_id), x: $(x), y: $(y), z: $(z)}

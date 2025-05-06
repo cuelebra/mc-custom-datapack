@@ -1,0 +1,1 @@
+execute as @a[scores={warptomes.justwarped=1..}] at @s run particle minecraft:white_ash ~ ~0.5 ~ 0.5 0.5 0.5 0.1 5

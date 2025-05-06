@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with minecraft:paper[minecraft:custom_name='{"text":"Scroll of Linking","italic":false}',minecraft:custom_data={isLinkingScroll:true,state:0},minecraft:food={"nutrition":0,"saturation":0,"can_always_eat":true,"eat_seconds":214748364d},minecraft:max_stack_size=1]

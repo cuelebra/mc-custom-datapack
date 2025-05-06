@@ -1,0 +1,469 @@
+{
+	"type": "minecraft:command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_rod",
+					"weight": 20,
+					"functions": [{ "function": "set_count", "count": 1 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:breeze_rod",
+					"weight": 20,
+					"functions": [{ "function": "set_count", "count": 1 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bell",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:salmon",
+					"weight": 50,
+					"functions": [{ "function": "set_count", "count": 32 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken",
+					"weight": 50,
+					"functions": [{ "function": "set_count", "count": 16 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sugar",
+					"weight": 50,
+					"functions": [{ "function": "set_count", "count": 32 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 50,
+					"functions": [{ "function": "set_count", "count": 16 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crying_obsidian",
+					"weight": 20,
+					"functions": [{ "function": "set_count", "count": 1 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:painting",
+					"weight": 35,
+					"functions": [{ "function": "set_count", "count": 1 }]
+				},
+
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mace",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"weight": 60,
+					"functions": [{ "function": "set_count", "count": 24 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 15,
+					"functions": [
+						{ "function": "set_potion", "id": "strong_harming" },
+						{ "function": "set_count", "count": 24 }
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 15,
+					"functions": [
+						{ "function": "set_potion", "id": "strong_slowness" },
+						{ "function": "set_count", "count": 24 }
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 15,
+					"functions": [
+						{ "function": "set_potion", "id": "strong_poison" },
+						{ "function": "set_count", "count": 24 }
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spectral_arrow",
+					"weight": 15,
+					"functions": [{ "function": "set_count", "count": 24 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"weight": 60,
+					"functions": [{ "function": "set_count", "count": 32 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 60,
+					"functions": [{ "function": "set_count", "count": 16 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 60,
+					"functions": [{ "function": "set_count", "count": 16 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"weight": 30,
+					"functions": [{ "function": "set_count", "count": 5 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 30,
+					"functions": [{ "function": "set_count", "count": 5 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 60,
+					"functions": [{ "function": "set_count", "count": 16 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_scrap",
+					"weight": 20,
+					"functions": [{ "function": "set_count", "count": 3 }]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_ingot",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warden_spawn_egg",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:allay_spawn_egg",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bedrock",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:creeper_head",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:zombie_head",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:player_head",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:piglin_head",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 3,
+					"functions": [
+						{ "function": "set_name", "name": "Gu Ruzhang's Resolve" },
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 5,
+								"efficiency": 5
+							}
+						},
+						{
+							"function": "set_attributes",
+							"replace": false,
+							"modifiers": [
+								{
+									"id": "cm7xioom1000vobwm5igq64jr",
+									"attribute": "generic.movement_speed",
+									"slot": "any",
+									"amount": 0.05,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom1000vobwm5igq64jr",
+									"attribute": "player.block_break_speed",
+									"slot": "any",
+									"amount": 5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom1000vobwm5igq64jr",
+									"attribute": "player.block_interaction_range",
+									"slot": "any",
+									"amount": 5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom1000vobwm5igq64jr",
+									"attribute": "generic.max_health",
+									"slot": "any",
+									"amount": -5,
+									"operation": "add_value"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"weight": 3,
+					"functions": [
+						{ "function": "set_name", "name": "Azurewrath" },
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"smite": 5,
+								"unbreaking": 5
+							}
+						},
+						{
+							"function": "set_attributes",
+							"replace": false,
+							"modifiers": [
+								{
+									"id": "cm7xioom10017obwm15ou3xtv",
+									"attribute": "generic.attack_damage",
+									"slot": "any",
+									"amount": -1,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom10018obwm9p6vbk7p",
+									"attribute": "generic.attack_knockback",
+									"slot": "any",
+									"amount": 1,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom10019obwmc6gmdp00",
+									"attribute": "generic.attack_speed",
+									"slot": "any",
+									"amount": 1,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7yxdlc8000cegwm9ctn4o0n",
+									"attribute": "player.entity_interaction_range",
+									"slot": "any",
+									"amount": 0.5,
+									"operation": "add_value"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_axe",
+					"weight": 3,
+					"functions": [
+						{ "function": "set_name", "name": "Hellslayer" },
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"smite": 4,
+								"unbreaking": 5,
+								"fire_aspect": 1
+							}
+						},
+						{
+							"function": "set_attributes",
+							"replace": false,
+							"modifiers": [
+								{
+									"id": "cm87pkc2e0000t9wmc6pa2y4z",
+									"attribute": "generic.movement_speed",
+									"slot": "any",
+									"amount": -0.05,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm87pkenp0002t9wmd09u5s8n",
+									"attribute": "generic.attack_speed",
+									"slot": "any",
+									"amount": 0.5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom1000wobwm70rjdf1f",
+									"attribute": "generic.attack_knockback",
+									"slot": "any",
+									"amount": 0.5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7yxdlc8000cegwm9ctn4o0n",
+									"attribute": "player.entity_interaction_range",
+									"slot": "any",
+									"amount": 1,
+									"operation": "add_value"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"weight": 3,
+					"functions": [
+						{ "function": "set_name", "name": "Spirit Ward" },
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 3,
+								"protection": 3
+							}
+						},
+						{
+							"function": "set_attributes",
+							"replace": false,
+							"modifiers": [
+								{
+									"id": "cm7xioom10010obwm27wz91az",
+									"attribute": "generic.armor",
+									"slot": "any",
+									"amount": 1,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom10010obwm27wz91az",
+									"attribute": "generic.movement_speed",
+									"slot": "any",
+									"amount": -0.04,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm87pkpf80004t9wm547g87ae",
+									"attribute": "generic.attack_damage",
+									"slot": "any",
+									"amount": 0.5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom10012obwm78gle1xk",
+									"attribute": "generic.attack_speed",
+									"slot": "any",
+									"amount": 0.5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom10014obwmbdqn6urr",
+									"attribute": "generic.luck",
+									"slot": "any",
+									"amount": 10,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom10015obwm7dhsajam",
+									"attribute": "generic.knockback_resistance",
+									"slot": "any",
+									"amount": 1,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7xioom10016obwmc8ez55t5",
+									"attribute": "generic.burning_time",
+									"slot": "any",
+									"amount": -1,
+									"operation": "add_value"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"weight": 3,
+					"functions": [
+						{ "function": "set_name", "name": "Windforce" },
+						{
+							"function": "set_enchantments",
+							"enchantments": {
+								"unbreaking": 3,
+								"quick_charge": 5,
+								"fortune": 5,
+								"power": 5,
+								"punch": 5,
+								"piercing": 5
+							}
+						},
+						{
+							"function": "set_attributes",
+							"replace": false,
+							"modifiers": [
+								{
+									"id": "cm87poyj80006t9wmcamabdw2",
+									"attribute": "generic.armor",
+									"slot": "any",
+									"amount": -5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7yx6u7a0006egwm1gjs30fm",
+									"attribute": "generic.luck",
+									"slot": "any",
+									"amount": 5,
+									"operation": "add_value"
+								},
+								{
+									"id": "cm7yx6vyz0008egwmendthp31",
+									"attribute": "generic.movement_speed",
+									"slot": "any",
+									"amount": 0.02,
+									"operation": "add_value"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

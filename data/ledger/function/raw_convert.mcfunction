@@ -1,0 +1,1 @@
+$data modify storage ledger:store pageIdToCompare set value $(page).extra[0].hoverEvent.value

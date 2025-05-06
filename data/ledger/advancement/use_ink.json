@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{isPortalInk:true}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+        "function": "ledger:use_ink"
+    }
+}

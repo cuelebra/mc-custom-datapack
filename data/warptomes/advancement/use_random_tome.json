@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:using_item",
+			"conditions": {
+				"item": {
+					"predicates": {
+						"minecraft:custom_data": "{isRandomTome:true}"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+        "function": "warptomes:use_random_tome"
+    }
+}

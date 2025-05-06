@@ -1,0 +1,26 @@
+[
+	{
+		"function": "minecraft:copy_custom_data",
+		"source": {
+			"type": "storage",
+			"source": "warptomes:temp"
+		},
+		"ops": [
+			{
+				"source": "firstPoint",
+				"target": "firstPoint",
+				"op": "replace"
+			},
+			{
+				"source": "secondPoint",
+				"target": "secondPoint",
+				"op": "replace"
+			},
+			{
+				"source": "runeString",
+				"target": "runeString",
+				"op": "replace"
+			}
+		]
+	}
+]

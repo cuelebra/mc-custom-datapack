@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"custom_data": "{LombardCoin:true}",
+								"max_stack_size": 99,
+								"custom_name": "{\"text\":\"Lombard Coin\",\"color\":\"yellow\"}",
+								"lore": [
+									"{\"text\":\"Small shiny coin, warm to the touch. It glows faintly with a golden hue.\",\"color\":\"green\"}"
+								]
+							}
+						},
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+$execute in $(home_destDimension) positioned as @p run summon minecraft:armor_stand $(home_destX) $(home_destY) $(home_destZ) {Invisible:true,Marker:true,Invulnerable:true,PersistenceRequired:true,NoGravity:true,CustomName:'{"text":"Warp Destination"}',Tags:["PortalDestination","PortalEntity","pairId:$(home_pairId)"]}

@@ -1,0 +1,3 @@
+$execute if score #isOffhand ledger.temp matches 1 run item replace entity @s weapon.offhand with written_book[custom_data={"isPortalLedger":true, "pagesIds": $(pagesIds)}, written_book_content={title: "Warped Ledger", author: "N'gkhan O'hato", pages: $(pages)}]
+
+$execute unless score #isOffhand ledger.temp matches 1 run item replace entity @s weapon.mainhand with written_book[custom_data={"isPortalLedger":true, "pagesIds": $(pagesIds)}, written_book_content={title: "Warped Ledger", author: "N'gkhan O'hato", pages: $(pages)}]

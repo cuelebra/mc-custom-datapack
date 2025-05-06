@@ -1,0 +1,1 @@
+scoreboard objectives add jump_potion.temp dummy

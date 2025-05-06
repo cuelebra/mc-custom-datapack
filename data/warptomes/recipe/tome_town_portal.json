@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "warptomes",
+	"category": "equipment",
+	"ingredients": [
+		{
+			"item": "minecraft:lapis_lazuli"
+		},
+		{
+			"item": "minecraft:lapis_lazuli"
+		},
+		{
+			"item": "minecraft:book"
+		}
+	],
+	"result": {
+		"id": "minecraft:book",
+		"count": 5,
+		"components": {
+			"minecraft:custom_name": "\"Tome of Town Portal\"",
+			"minecraft:custom_data": "{isTome:true}",
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true,
+				"eat_seconds": 2147483648
+			}
+		}
+	}
+}

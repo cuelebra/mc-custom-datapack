@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["#_#", "#A#", "#_#"],
+	"key": {
+		"#": {
+			"tag": "minecraft:planks"
+		},
+		"_": {
+			"tag": "minecraft:wooden_slabs"
+		},
+		"A": {
+			"item": "minecraft:anvil"
+		}
+	},
+	"result": {
+		"id": "minecraft:barrel",
+		"components": {
+			"custom_name": "\"Barrel Lombard\""
+		},
+		"count": 1
+	}
+}

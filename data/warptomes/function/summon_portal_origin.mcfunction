@@ -1,0 +1,1 @@
+$summon minecraft:armor_stand ^ ^0.5 ^2 {Invisible:true,Marker:true,Invulnerable:true,PersistenceRequired:true,NoGravity:true,CustomName:'{"text":"Warp Origin"}',Tags:["PortalOrigin","PortalEntity","pairId:$(home_pairId)"]}

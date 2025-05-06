@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "warptomes",
+	"category": "equipment",
+	"ingredients": [
+		{
+			"item": "minecraft:lapis_lazuli"
+		},
+		{
+			"item": "minecraft:lapis_lazuli"
+		},
+		{
+			"item": "minecraft:enchanted_book"
+		}
+	],
+	"result": {
+		"id": "minecraft:enchanted_book",
+		"components": {
+			"minecraft:custom_name": "\"Tome of Random Portal\"",
+			"minecraft:custom_data": "{isRandomTome:true}",
+			"minecraft:food": {
+				"nutrition": 0,
+				"saturation": 0,
+				"can_always_eat": true,
+				"eat_seconds": 2147483648
+			}
+		}
+	}
+}

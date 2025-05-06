@@ -1,0 +1,1 @@
+$data modify storage warptomes:temp runeString set value "$(rune1)$(rune2)$(rune3)$(rune4)$(rune5)$(rune6)"

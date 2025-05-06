@@ -1,0 +1,38 @@
+[
+	{
+		"function": "minecraft:set_written_book_pages",
+		"pages": [
+			{
+				"text": "§lNether Location\n§r§7X: ",
+				"italic": true,
+				"extra": [
+					{
+						"storage": "ledger:store",
+						"nbt": "x",
+						"italic": true
+					},
+					{
+						"storage": "ledger:store",
+						"nbt": "y",
+						"italic": true
+					},
+					{
+						"storage": "ledger:store",
+						"nbt": "z",
+						"italic": true
+					},
+					{
+						"text": "\n\n§6[Click to Teleport]",
+						"italic": true,
+						"clickEvent": {
+							"action": "run_command",
+							"value": "/function ledger:teleport_page"
+						},
+						"color": "gold"
+					}
+				]
+			}
+		],
+		"mode": "append"
+	}
+]

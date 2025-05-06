@@ -1,0 +1,1 @@
+$clear @s minecraft:amethyst_shard $(Price)
